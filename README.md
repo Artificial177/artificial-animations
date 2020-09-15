@@ -1,2 +1,2 @@
-# Artificial117's Animations
+# Animations
 A compilation of my mathematics and science animations.
