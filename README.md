@@ -1,6 +1,6 @@
 # Animations
 The code behind any animations I've created. 
 
-#Manim
+## Manim
 
-All of my animations are created using Manim, an animation engine by 3Blue1Brown, which can be found here.
+All of my animations are created using Manim, an animation engine by 3Blue1Brown, which can be found [here](https://github.com/3b1b/manim).
