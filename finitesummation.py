@@ -1,5 +1,9 @@
 from manimlib.imports import *
 
+'''
+An animation which shows the sum of a finite set of positive numbers, from 1 - n, is equal to (n)(n+1)/2.
+'''
+
 PINK = "#f57ddd"
 BBLUE = "#7dcbf5"
 GGREEN = "#7df5ad"
@@ -239,6 +243,11 @@ class nSummation(Scene):
 
 
 class InfiniteSummation(Scene):
+   #TODO: Finish the infinite summation.
+   '''
+   Work in progress. This would show the infinite summation of positive numbers is equal to -1/12. 
+   I'll get back to this at some point. 
+   '''
    def construct(self):
       ins1 = TextMobject("But what about an infinite summation?").to_edge(UP).scale(1.5)
 
@@ -259,16 +268,6 @@ class InfiniteSummation(Scene):
       self.wait(0.5)
 
       self.play(ReplacementTransform(textfinal, textfinal2))
-
-
-
-
-
-
-
-
-
-
 
 
 
