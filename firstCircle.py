@@ -1,0 +1,30 @@
+from manimlib.imports import *
+class circle(Scene):
+	def construct(self):
+		text = TextMobject("This is a circle.")
+		text.scale(2)
+		text2 = TextMobject("This is a triangle.")
+		text2.scale(2)
+		text.to_edge(DOWN)
+		text2.to_edge(DOWN)
+		text3 = TextMobject("This is a square.")
+		text3.scale(2)
+		text3.to_edge(DOWN)
+		circle = Circle()
+		triangle = Triangle()
+		square = Square()
+
+		self.play(Write(text))
+		self.wait(0.5)
+		self.play(ShowCreation(circle))
+		self.wait(0.5)
+		self.play(FadeOut(text))
+		self.play(Transform(circle, triangle))
+		self.wait(0.5)
+		self.play(Write(text2))
+		self.wait(0.5)
+		self.play(FadeOut(text2))
+		self.play(Transform(circle, square))
+		self.play(Write(text3))
+		self.wait(1)
+			
